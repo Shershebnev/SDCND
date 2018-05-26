@@ -1,0 +1,14 @@
+color_space = 'YCrCb' # Can be RGB, HSV, LUV, HLS, YUV, YCrCb
+orient = 10  # HOG orientations
+pix_per_cell = 8 # HOG pixels per cell
+cell_per_block = 2 # HOG cells per block
+hog_channel = 'ALL' # Can be 0, 1, 2, or "ALL"
+spatial_size = (32, 32) # Spatial binning dimensions
+hist_bins = 64   # Number of histogram bins
+spatial_feat = True
+hist_feat = True
+hog_feat = True
+y_start = 400
+y_stop = 656
+y_start_stop = [y_start, y_stop]  # Min and max in y to search in slide_window()
+scale = 1.5
